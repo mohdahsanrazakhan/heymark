@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='text-center m-auto absolute bottom-12 left-[1/2]'>
+      <div className='text-center m-auto absolute bottom-16 sm:bottom-10 left-[1/2]'>
         <div className='border-2 border-black rounded-xl w-fit m-auto p-1'>
           <p className='animate-bounce font-semibold'>⚫</p>
         </div>
