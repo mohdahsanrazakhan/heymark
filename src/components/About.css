@@ -1,0 +1,31 @@
+.title:hover {
+  background-color: black;
+  color: #CFC1AE;
+}
+
+.title:hover + .desc {
+  background-color: #CFC1AE;
+  color: black;
+}
+
+.title {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.desc {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.title.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.desc.visible {
+  opacity: 1;
+  transform: translateX(0);
+}

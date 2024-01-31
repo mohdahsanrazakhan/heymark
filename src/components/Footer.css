@@ -1,0 +1,18 @@
+.social-link:hover + .link-arrow {
+  animation-name: diagonal-to-top-right;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes diagonal-to-top-right {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(0.5rem) translateY(-0.5rem);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}

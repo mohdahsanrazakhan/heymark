@@ -1,0 +1,18 @@
+.arrow {
+  animation-name: diagonal-to-bottom-right;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes diagonal-to-bottom-right {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(1rem) translateY(1rem);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
