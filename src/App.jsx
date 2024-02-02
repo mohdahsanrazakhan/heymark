@@ -9,7 +9,7 @@ import './App.css'
 function App() {
 
   return (
-    <section>
+    <section className='bg-[#CFC1AE] dark:bg-[#131313]'>
       <Hero />
       <About />
       <Skill />

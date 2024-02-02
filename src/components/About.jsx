@@ -23,11 +23,11 @@ const About = () => {
 
   return (
     <section className='flex lg:flex-row flex-col gap-5 justify-evenly items-center h-min sm:h-[100vh] mx-10 lg:mx-28 overflow-hidden'>
-      <div className={`title border-2 border-black rounded-xl lg:w-[45%] w-[100%] sm:h-[65%] text-center flex justify-center items-center transition ease-in-out duration-1000 p-10 ${isVisible ? 'visible' : ''}`}>
-        <h2 className='text-[4rem] md:text-[6rem] landing-none font-[clash-display-semibold]'>About Me</h2>
+      <div className={`title border-2 border-[#131313] dark:border-[#CFC1AE] rounded-xl lg:w-[45%] w-[100%] sm:h-[65%] text-center flex justify-center items-center transition-all ease-in-out duration-1000 p-10 ${isVisible ? 'visible' : ''}`}>
+        <h2 className='text-[4rem] md:text-[6rem] landing-none font-[clash-display-semibold] dark:text-[#CFC1AE]'>About Me</h2>
       </div>
 
-      <div className={`desc border-2 border-black rounded-xl lg:w-[45%] w-[100%] lg:h-[65%] flex justify-center items-center bg-black text-[#CFC1AE] transition ease-in-out duration-1000 leading-10 p-10 ${isVisible ? 'visible' : ''}`}>
+      <div className={`desc border-2 border-[#131313] dark:border-[#CFC1AE] rounded-xl lg:w-[45%] w-[100%] lg:h-[65%] flex justify-center items-center bg-[#131313] dark:bg-transparent text-[#CFC1AE] transition-all ease-in-out duration-1000 leading-10 p-10 ${isVisible ? 'visible' : ''}`}>
         <ul className='list-disc text-[1rem] landing-none font-mono'>
           <li>Self-taught individual specializing in front-end web development.</li>
           <li>Specialized in React, a popular front-end library.</li>

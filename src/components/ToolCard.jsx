@@ -1,7 +1,7 @@
 
 const ToolCard = (props) => {
   return (
-    <div className="m-auto p-5 min-w-36 min-h-36 rounded-lg flex justify-center items-center border-2 border-black group">
+    <div className="m-auto p-5 min-w-36 min-h-36 rounded-lg flex justify-center items-center border-2 border-[#131313] dark:bg-slate-700 group">
       <img
         src={props.url}
         alt={props.alt}

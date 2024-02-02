@@ -5,7 +5,7 @@ import ToolCard from './ToolCard'
 const Skill = () => {
   return (
     <section className='min-h-screen'>
-      <h1 className='text-[6rem] sm:text-[9rem] md:text-[12rem] landing-none font-[clash-display-semibold] text-center w-full m-auto'>Skills</h1>
+      <h1 className='text-[6rem] sm:text-[9rem] md:text-[12rem] landing-none font-[clash-display-semibold] text-center w-full m-auto text-[#131313] dark:text-[#CFC1AE]'>Skills</h1>
       <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 justify-center items-center place-content-center w-fit m-auto gap-5'>
         <ToolCard skill="C++" url="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" />
         <ToolCard skill="JavaScript" url="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" />

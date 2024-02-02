@@ -2,12 +2,12 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer className='flex flex-col md:flex-row justify-end items-center gap-10 mx-10 lg:mx-28 lg:px-4 py-5 border-t-2 border-black'>
+    <footer className='flex flex-col md:flex-row justify-end items-center gap-10 mx-10 lg:mx-28 lg:px-4 py-5 border-t-2 border-black dark:border-[#CFC1AE] text-[#131313] dark:text-[#CFC1AE]'>
       <div className='flex justify-center items-center'>
         <a className='social-link font-[clash-display-semibold] text-[2rem] sm:text-[2.5rem]' href="https://www.linkedin.com/in/mohd-ahsan-raza-khan/" target='_blank'>LinkedIn</a>
         <div className='link-arrow h-[2.5rem]'>
           <svg
-            className="m-auto"
+            className="m-auto dark:stroke-[#CFC1AE]"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -29,7 +29,7 @@ const Footer = () => {
         <a className='social-link font-[clash-display-semibold] text-[2rem] sm:text-[2.5rem]' href="https://twitter.com/MdAhsanRazaKhan" target='_blank'>Twitter</a>
         <div className='link-arrow h-[2.5rem]'>
           <svg
-            className="m-auto"
+            className="m-auto dark:stroke-[#CFC1AE]"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -51,7 +51,7 @@ const Footer = () => {
         <a className='social-link font-[clash-display-semibold] text-[2rem] sm:text-[2.5rem]' href="https://github.com/mohdahsanrazakhan" target='_blank'>GitHub</a>
         <div className='link-arrow h-[2.5rem]'>
           <svg
-            className="m-auto"
+            className="m-auto dark:stroke-[#CFC1AE]"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
