@@ -4,7 +4,6 @@
   font-style: normal;
 }
 
-
 .circle-sketch-highlight{
   position:relative;
 }
@@ -51,7 +50,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   position: relative;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 h1::after {
@@ -81,12 +80,3 @@ h1::after {
     background-position: 100% -100%;
   }
 }
-
-/* #M, #A, #R, #K {
-  filter: drop-shadow(10px 10px 0 rgb(144, 144, 144));
-  transition: all 0.5s ease-out;
-  font-family: "Rammetto One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  z-index: -2;
-} */

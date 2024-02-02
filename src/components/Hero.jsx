@@ -2,10 +2,10 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <section className='flex flex-col flex-wrap justify-center items-center h-screen relative'>
+    <header className='flex flex-col flex-wrap justify-center items-center h-screen relative'>
 
       <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-        <p className='role text-[2rem] text-center'>I'm <span className='circle-sketch-highlight'>front-end developer</span></p>
+        <p className='role text-[2rem] text-center'>I'm a <span className='circle-sketch-highlight'>front-end developer</span></p>
 
         <div className="text-[4.5rem] sm:text-[10rem] md:text-[12rem] lg:text-[16rem] xl:text-[20rem] landing-none font-[clash-display-semibold]">
           <h1 data-shadow="MARK">
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
         <small className='font-semibold'>scroll down</small>
         </div>
-    </section>
+    </header>
   )
 }
 

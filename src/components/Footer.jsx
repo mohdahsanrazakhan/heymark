@@ -2,7 +2,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <section className='flex flex-col md:flex-row justify-end items-center gap-10 mx-10 lg:mx-28 lg:px-4 py-5 border-t-2 border-black'>
+    <footer className='flex flex-col md:flex-row justify-end items-center gap-10 mx-10 lg:mx-28 lg:px-4 py-5 border-t-2 border-black'>
       <div className='flex justify-center items-center'>
         <a className='social-link font-[clash-display-semibold] text-[2rem] sm:text-[2.5rem]' href="https://www.linkedin.com/in/mohd-ahsan-raza-khan/" target='_blank'>LinkedIn</a>
         <div className='link-arrow h-[2.5rem]'>
@@ -68,7 +68,7 @@ const Footer = () => {
           </svg>
         </div>
       </div>
-    </section>
+    </footer>
   )
 }
 
