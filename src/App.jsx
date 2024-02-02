@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Work from './components/Work';
@@ -15,6 +16,7 @@ function App() {
       <Skill />
       <Contact />
       <Footer />
+      <SpeedInsights />
       {/* <Work /> */}
     </section>
   )
