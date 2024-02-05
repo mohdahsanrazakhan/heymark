@@ -14,10 +14,10 @@ function App() {
       <Hero />
       <About />
       <Skill />
+      <Work />
       <Contact />
       <Footer />
       <SpeedInsights />
-      {/* <Work /> */}
     </section>
   )
 }

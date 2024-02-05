@@ -1,0 +1,30 @@
+[
+  {
+    "title": "GitHub Profile Search",
+    "description": "Streamline GitHub profile exploration with GitHub Profile Search, a facilitating quick access to user information.",
+    "image": "/Images/GitHub.png",
+    "live": "https://search-github-user-profile.netlify.app/",
+    "github": "https://github.com/mohdahsanrazakhan/GitHub-Profile-Search"
+  },
+  {
+    "title": "Trivia Genius",
+    "description": "Experience trivia excitement with Trivia Genius, Featuring 14 categories. Uncover facts and challenge your knowledge!",
+    "image": "/Images/Trivia.png",
+    "live": "https://trivia-genius.netlify.app/",
+    "github": "https://github.com/mohdahsanrazakhan/Trivia-Genius"
+  },
+  {
+    "title": "Project Grid",
+    "description": "Project Grid showcases my HTML, CSS, Tailwind CSS, JavaScript skills with diverse web apps and enhanced APIs.",
+    "image": "/Images/ProjectGrid.png",
+    "live": "https://myprojectgrid.netlify.app/",
+    "github": "https://github.com/mohdahsanrazakhan/my-project-grid"
+  },
+  {
+    "title": "Personal Portfolio",
+    "description": "Discover my web development journey and projects in my personal portfolio - let's connect and collaborate!",
+    "image": "/Images/Portfolio.png",
+    "live": "https://heymark.vercel.app/",
+    "github": "https://github.com/mohdahsanrazakhan/heymark"
+  }
+]
