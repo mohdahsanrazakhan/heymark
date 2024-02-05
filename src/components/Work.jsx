@@ -23,7 +23,7 @@ const Work = () => {
   }
 
   return (
-    <section className='m-10 lg:m-24'>
+    <section className='m-10 lg:m-24 font-mono'>
       <h2 className='text-[4rem] sm:text-[6rem] text-center landing-none font-[clash-display-semibold] text-[#131313] dark:text-[#CEC1AE]'>Recent Work</h2>
           <div className='flex flex-wrap justify-center gap-5'>
           {data.map((item, index) => (
@@ -33,7 +33,7 @@ const Work = () => {
                   <img src={item.image} alt={item.title} className='rounded-md' />
                 </div>
                 <div className='flex flex-col justify-between items-center gap-2 p-5 text-center'>
-                  <h2 className='text-2xl'>{item.title}</h2>
+                  <h2 className='text-2xl font-[clash-display-semibold] tracking-wider'>{item.title}</h2>
                   <p className='text-md'>{item.description}</p>
                   <div className='flex gap-2'>
                     <button className='bg-[#CEC1AE] border-2 border-[#CEC1AE] text-[#131313] font-semibold w-20 px-2 py-1 rounded-lg hover:tracking-widest transition-all duration-500'><a href={item.live} target='_blank'>Live</a></button>

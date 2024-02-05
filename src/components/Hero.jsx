@@ -26,7 +26,7 @@ const Hero = () => {
         <div className='border-2 border-black dark:border-[#CFC1AE] rounded-xl w-fit m-auto p-1'>
           <p className='animate-bounce font-semibold'><div className='w-4 h-4 rounded-full bg-[#131313] dark:bg-[#CFC1AE]'></div></p>
         </div>
-        <small className='font-semibold text-[#131313] dark:text-[#CFC1AE]'>scroll down</small>
+        <small className='font-semibold font-mono tracking-wide text-[#131313] dark:text-[#CFC1AE]'>scroll down</small>
         </div>
     </header>
   )
