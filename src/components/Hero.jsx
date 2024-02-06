@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <header className='flex flex-col flex-wrap justify-center items-center h-screen relative'>
 
-      <div className='absolute top-5 right-5'>
+      <div className='fixed top-5 right-5'>
         <Switcher />
       </div>
 
