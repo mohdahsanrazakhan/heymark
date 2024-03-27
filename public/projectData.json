@@ -26,5 +26,19 @@
     "image": "/Images/Portfolio.png",
     "live": "https://heymark.vercel.app/",
     "github": "https://github.com/mohdahsanrazakhan/heymark"
+  },
+  {
+    "title": "KoinX",
+    "description": "KoinX is a cryptocurrency exchange platform designed to facilitate the trading of various digital assets.",
+    "image": "/Images/Koinx.png",
+    "live": "https://koinxtm.vercel.app/",
+    "github": "https://github.com/mohdahsanrazakhan/KoinX"
+  },
+  {
+    "title": "Applianceify",
+    "description": "Applianceify: Seamless eCommerce cart; responsive design for effortless product addition; optimized for all devices.",
+    "image": "/Images/Applianceify.png",
+    "live": "https://applianceify.netlify.app/",
+    "github": "https://github.com/mohdahsanrazakhan/eCommerce-Cart"
   }
 ]

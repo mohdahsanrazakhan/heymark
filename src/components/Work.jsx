@@ -30,7 +30,7 @@ const Work = () => {
             <div className='bg-slate-500 rounded-md shadow-2xl hover:shadow-none transition duration-500'>
               <div key={index} className='sm:w-[500px] bg-[#131313] dark:dark:bg-slate-900 border-2 border-[#CEC1AE]/50 text-[#CEC1AE] p-2 rounded-md transition duration-500 hover:translate-x-2 hover:-translate-y-2 h-full flex flex-col jusitfy-between'>
                 <div>
-                  <img src={item.image} alt={item.title} className='rounded-md' />
+                  <img src={item.image} alt={item.title} className='rounded-md' loading='lazy' />
                 </div>
                 <div className='flex flex-col justify-between items-center gap-2 p-5 text-center'>
                   <h2 className='text-2xl font-[clash-display-semibold] tracking-wider'>{item.title}</h2>
