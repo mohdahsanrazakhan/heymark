@@ -4,6 +4,14 @@ import Switcher from './Switcher';
 const Hero = () => {
   return (
     <header className='flex flex-col flex-wrap justify-center items-center h-screen relative'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Mohd Ahsan Raza Khan</title>
+        <link rel="canonical" href="http://heymark.vercel.app" />
+        <meta name="description" content="Portfolio of Mohd Ahsan Raza Khan, a front-end developer." />
+        <meta name="keywords" content="portfolio, front-end, developer, react, web, application, developer, mohd ahsan raza khan" />
+        <meta name="author" content="Mohd Ahsan Raza Khan" />
+      </Helmet>
 
       <div className='fixed top-5 right-5'>
         <Switcher />
@@ -27,7 +35,7 @@ const Hero = () => {
           <p className='animate-bounce font-semibold'><div className='w-4 h-4 rounded-full bg-[#131313] dark:bg-[#CFC1AE]'></div></p>
         </div>
         <small className='font-semibold font-mono tracking-wide text-[#131313] dark:text-[#CFC1AE]'>scroll down</small>
-        </div>
+      </div>
     </header>
   )
 }
