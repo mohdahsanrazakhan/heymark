@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import './Hero.css'
 import Switcher from './Switcher';
 
