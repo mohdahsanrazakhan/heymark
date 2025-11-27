@@ -1,5 +1,19 @@
 [
   {
+    "title": "SalesBoard CRM",
+    "description": "A user-friendly platform that helps salespeople track leads, sales, etc. while enabling managers to monitor team performance.",
+    "image": "/Images/SalesBoardCRM.png",
+    "live": "https://salesboardcrm.netlify.app/",
+    "github": "https://github.com/mohdahsanrazakhan/salesboardcrm"
+  },
+  {
+    "title": "Legal Codes",
+    "description": "A legal resource platform designed to make Indian laws including the IPC, CrPC etc. easily accessible to everyone.",
+    "image": "/Images/LegalCodes.png",
+    "live": "https://legalcodes.in/",
+    "github": "https://github.com/mohdahsanrazakhan/LawCodes"
+  },
+  {
     "title": "KoinX",
     "description": "KoinX is a cryptocurrency exchange platform designed to facilitate the trading of various digital assets.",
     "image": "/Images/Koinx.png",
