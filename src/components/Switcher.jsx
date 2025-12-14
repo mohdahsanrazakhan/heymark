@@ -19,7 +19,7 @@ export default function Switcher() {
         checked={darkMode}
         onChange={toggleDarMode}
         size={24}
-        sunColor={`#131313`}
+        sunColor={`#CFC1AE`}
         moonColor={`#CFC1AE`}
       />
     </>
