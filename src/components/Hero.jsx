@@ -1,10 +1,12 @@
 import { Helmet } from 'react-helmet';
 import './Hero.css'
 import Switcher from './Switcher';
+import Snowfall from 'react-snowfall';
 
 const Hero = () => {
   return (
     <>
+    <Snowfall color='#b9e4f3ff' />
       <div className="sticky top-0 flex gap-1 flex-wrap justify-center bg-black text-neutral-200 p-4 text-center z-10">
         <p className="flex gap-2 items-center text-muted-foreground font-mono"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="24" height="24" /> This is my old portfolio.</p>
         <a
